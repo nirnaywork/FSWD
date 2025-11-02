@@ -1,0 +1,23 @@
+/* Add CSS Styling */
+
+.iAm_aClass{
+    background-color: palevioletred;
+}
+
+#oneID{
+    color: blue;
+    font-size: 30px;
+}
+
+.coolerClass{
+    background-color: palevioletred;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#anotherID{
+    background-color: green;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

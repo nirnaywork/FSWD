@@ -1,0 +1,168 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, .intro{
+    background-color: #1F2937;
+    padding-top: 30px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+header li{  
+    font-size: 20px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+    font-size: 18px;
+    color: #fff;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    gap: 50px;
+    color: #fff;
+}
+
+.intro .intro-left{
+    width: 30%;
+}
+
+.intro .intro-right{
+    width: 30%;
+}
+
+.intro-right img{
+    border: solid 4px #fff;
+    border-radius: 5000px;
+}
+
+.intro-left h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.intro-left p{
+    padding-bottom: 20px;
+}
+
+.intro-left button, .contact-now-right-side button{
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    border-left: solid 2px #fff;
+    border-top: solid 2px #fff;
+}
+
+
+.work{
+    padding: 40px;
+}
+
+.work h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.prevWork{
+    display: flex;
+    justify-content: center;
+}
+
+.prevWork h3, .prevWork p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.prevWork p{
+    padding-bottom: 20px;
+}
+
+.prevWork li{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.quote p{
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+.contact-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    height: 200px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 50px 500px;
+}   
+
+.contact-now-left-side h3{
+    font-size: 25px;
+}
+
+.contact-now-left-side{
+    padding: 0px;
+    margin: 0px;
+    margin-left: -75px;
+}
+
+footer h3{
+    background-color: #1F2937;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #1F2937;
+}

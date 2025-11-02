@@ -1,0 +1,17 @@
+/* Add CSS Styling */
+
+button{
+    padding: 10px;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#leftClickMe{
+    background-color: black;
+    color: #fff;
+}
+
+#rightClickMe{
+    background-color: yellow;
+    color: #000;
+}
